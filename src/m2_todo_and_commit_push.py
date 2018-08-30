@@ -1,4 +1,6 @@
 print('Hello, World')
+print('It is hot')
+
 
 ###############################################################################
 #
@@ -17,7 +19,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 1.
+# DONE
 #   (Yes, that means for YOU to DO things per these instructions:)
 #
 #   Run this module by right clicking anywhere in this window and selecting
