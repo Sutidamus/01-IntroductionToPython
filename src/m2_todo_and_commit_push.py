@@ -1,5 +1,6 @@
 print('Hello, World')
 print('It is hot')
+print(3607 * 34227)
 
 
 ###############################################################################
@@ -34,7 +35,7 @@ print('It is hot')
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE
 #   Notice the small horizontal BLUE bars on the scrollbar-like thing
 #   on the right.  Each blue bar indicates a thing TO-DO in this module.
 #
@@ -59,7 +60,7 @@ print('It is hot')
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE
 #   Add another   print   statement below the current Line 1 above.
 #   It should print any string that you want (but keep it G-rated!)
 #

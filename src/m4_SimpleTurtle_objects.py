@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Stephen Payne.
 """
 ###############################################################################
 #
-# TODO: 1.
+# DONE
 #   Yes, that means for YOU to DO things per the following instructions:
 #
 #   On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -27,9 +27,10 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 
 import rosegraphics as rg
 
+
 ###############################################################################
 #
-# TODO: 2.
+# DONE
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -48,7 +49,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving, *click anywhere in the window to close it*.
 #
@@ -99,7 +100,7 @@ boris.forward(200)
 #     set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
-natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
+natasha.pen = rg.Pen('blue', 30)  # Second argument is the Pen's thickness
 natasha.speed = 10  # Faster
 
 natasha.backward(50)
@@ -109,9 +110,22 @@ natasha.forward(50)
 natasha.speed = 1  # Now slower
 natasha.go_to(rg.Point(-100, 200))
 
+
+natasha.speed = 4 #Added code for TODO4, faster
+natasha.right(40)
+natasha.backward(120)
+natasha.left(200)
+
+john = rg.SimpleTurtle('turtle')
+john.pen = rg.Pen('green', 15)
+john.right(40)
+john.forward(70)
+john.backward(140)
+
+
 ###############################################################################
 #
-# TODO: 4.
+# DONE
 #   Add a few more lines of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -125,7 +139,7 @@ natasha.go_to(rg.Point(-100, 200))
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
