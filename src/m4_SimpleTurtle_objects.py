@@ -79,6 +79,7 @@ import rosegraphics as rg
 window = rg.TurtleWindow()
 window.delay(20)  # Bigger numbers mean slower animation.
 
+
 # -----------------------------------------------------------------------------
 # The next few lines show how to:
 #   - CONSTRUCT (make) a  SimpleTurtle  object and ASSIGN a NAME to the object.
