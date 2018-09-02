@@ -5,7 +5,7 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
          their colleagues and Stephen Payne.
 """
 ###############################################################################
-# DONE
+# DONE 
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ###############################################################################
 
