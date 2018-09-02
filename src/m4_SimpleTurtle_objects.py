@@ -139,7 +139,7 @@ john.backward(140)
 ###############################################################################
 
 ###############################################################################
-# 
+#
 # DONE
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
